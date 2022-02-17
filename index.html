@@ -12,20 +12,30 @@
     <title>alpha-cart</title>
   </head>
   <body>
-    <header class="header">
-      <h1 class="logo"><a href="#">Alpha Store</a></h1>
-      <div class="search-wrapper">
-        <form action="">
-          <input type="text" class="nav-search" placeholder="Search..." />
-        </form>
-      </div>
-      <div class="header-nav">
-        <nav>
-          <a href="#">Login</a>
-          <i class="fa far fa-shopping-cart"></i>
-          <i class="fa fa-light fa-heart"></i>
-        </nav>
-      </div>
-    </header>
+    <div class="container">
+      <header class="header">
+        <div class="logo-container">
+          <a href="#" class="logo-text">Alpha Cart </a>
+        </div>
+
+        <input type="text" class="nav-search" placeholder="Search..." />
+
+        <div class="header-nav">
+          <nav>
+            <a href="#" class="login-btn">Login</a>
+            <a href="#">
+              <i class="fa far fa-shopping-cart"
+                ><span class="sm-cart">cart</span></i
+              >
+            </a>
+            <a href="#">
+              <i class="fa fa-light fa-heart">
+                <span class="sm-cart">wishlist</span>
+              </i>
+            </a>
+          </nav>
+        </div>
+      </header>
+    </div>
   </body>
 </html>
