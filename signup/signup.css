@@ -80,6 +80,9 @@ h2 {
   width: 25rem;
 }
 
+.secondary-txt {
+  color: var(--secondary-text);
+}
 .auth-btn {
   width: 100%;
   font-size: 2rem;

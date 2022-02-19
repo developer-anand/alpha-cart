@@ -61,6 +61,16 @@
   color: var(--links-text-color);
 }
 
+.login-btn {
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  background: var(--black);
+  color: var(--nav-text-color);
+  cursor: pointer;
+  text-align: center;
+  border: none;
+}
+
 .icon-badge {
   position: relative;
   right: 0px;
@@ -89,6 +99,9 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .brand-logo {
+    height: 4rem;
+  }
   .search-box {
     display: none;
   }
@@ -102,5 +115,9 @@
     font-size: 1rem;
     height: 10px;
     width: 10px;
+  }
+  .login-btn {
+    padding: 5px 10px;
+    font-size: 1rem;
   }
 }
