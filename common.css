@@ -13,4 +13,7 @@
   --nav-hower: #e7ecef;
   --nav-secondary-color: rgb(247, 244, 244);
   --nav-bg-color: #f5f5f5;
+  --icon-badge-color: rgb(68, 27, 3);
+  --icon-count-color: #fff;
+  --icon-count-bg: red;
 }
