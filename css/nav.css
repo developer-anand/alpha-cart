@@ -64,13 +64,17 @@
 .login-btn {
   padding: 1rem 2rem;
   font-size: 2rem;
-  background: var(--black);
+  background: var(--login-hover);
   color: var(--nav-text-color);
   cursor: pointer;
   text-align: center;
   border: none;
+  transition: 0.2sec ease-in;
 }
 
+.login-btn:hover {
+  background: var(--black);
+}
 .icon-badge {
   position: relative;
   right: 0px;
