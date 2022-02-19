@@ -1,0 +1,88 @@
+@import "/common.css";
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10rem;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  gap: 2rem;
+  padding: 2rem 4rem;
+  border-radius: 10px;
+  border: 1px solid var(--black);
+}
+
+.login-heading {
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+.auth-user-input {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+
+.user-input {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+.input-basic {
+  width: 100%;
+  font-size: 2rem;
+  outline: none;
+  padding: 1.5rem;
+  border-radius: 5px;
+  background: transparent;
+  color: var(--links-text-color);
+  border: 2px solid var(--links-text-color);
+}
+
+.auth-forget {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.auth-forget-text {
+  align-self: flex-end;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 1.5rem;
+  color: var(--links-text-color);
+}
+
+.auth-remember-input {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.auth-remember-text {
+  font-size: 1rem;
+}
+
+.auth-btn {
+  width: 100%;
+  font-size: 2rem;
+  padding: 1rem;
+  background: var(--links-text-color);
+  color: var(--nav-text-color);
+  cursor: pointer;
+}
