@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
+    <title>Signup</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="/css/home.css" />
-    <link rel="stylesheet" href="/login/login.css" />
+    <link rel="stylesheet" href="/signup/signup.css" />
   </head>
   <body>
     <header>
@@ -42,11 +42,19 @@
 
     <section>
       <div class="login-container">
-        <h2 class="login-heading">Login</h2>
+        <h2 class="login-heading">Signup</h2>
 
         <div class="auth-user-input">
-          <label for="user-input" class="input-label">Email</label>
+          <label for="user-input" class="input-label"> Name</label>
+          <input
+            id="user-input"
+            type="text"
+            class="user-input"
+            placeholder="Enter Name"
+            name="user"
+          />
 
+          <label for="user-input" class="input-label">Email</label>
           <input
             id="user-input"
             type="email"
@@ -62,20 +70,29 @@
             placeholder="Enter Password"
             name="password"
           />
+          <label for="user-input" class="input-label">Confirm Password</label>
+          <input
+            type="password"
+            class="user-input"
+            placeholder="Confirm Password"
+            name="password"
+          />
         </div>
 
         <div class="auth-forget">
-          <a href="#" class="auth-forget-text">Forgot your password?</a>
           <div class="auth-remember-input">
             <input type="checkbox" value="" />
-            <span class="auth-remember-text">Remember Me</span>
+            <span class="auth-forget-text">I accept all</span>
+            <a href="#" class="auth-forget-text">Terms & Conditions</a>
           </div>
         </div>
+
         <a href="#" class="btn-container">
-          <button class="auth-btn">Login</button>
-        </a>
-        <a href="/signup/signup.html" class="btn-container">
           <button class="auth-btn">Signup</button>
+        </a>
+
+        <a href="/login/login.html" class="btn-container">
+          <button class="auth-btn">Login</button>
         </a>
       </div>
     </section>
