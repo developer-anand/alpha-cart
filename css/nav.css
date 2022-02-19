@@ -1,6 +1,7 @@
 @import "/common.css";
 
 .navbar {
+  position: sticky;
   box-shadow: 1px 2px var(--black);
   width: 100%;
   height: 10rem;
