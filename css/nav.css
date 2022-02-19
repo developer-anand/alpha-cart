@@ -81,8 +81,8 @@
 
 .bg-primary {
   border-radius: 50%;
-  height: 25px;
-  width: 25px;
+  height: 2.5rem;
+  width: 2.5rem;
   display: inline-flex;
   justify-content: center;
 }
