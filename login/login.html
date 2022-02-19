@@ -45,22 +45,25 @@
         <h2 class="login-heading">Login</h2>
 
         <div class="auth-user-input">
-          <div class="user-input input-user">
-            <input
-              type="email"
-              class="input-basic"
-              placeholder="Enter Email"
-              name="user"
-            />
-          </div>
-          <div class="user-input input-pass">
-            <input
-              type="password"
-              class="input-basic"
-              placeholder="Enter Password"
-              name="password"
-            />
-          </div>
+          <label for="user-input" class="input-label">Email</label>
+          <!-- <div class="user-input"> -->
+          <input
+            id="user-input"
+            type="email"
+            class="user-input"
+            placeholder="Enter Email"
+            name="user"
+          />
+          <!-- </div> -->
+          <!-- <div class="user-input"> -->
+          <label for="user-input" class="input-label">Password</label>
+          <input
+            type="password"
+            class="user-input"
+            placeholder="Enter Password"
+            name="password"
+          />
+          <!-- </div> -->
         </div>
 
         <div class="auth-forget">
