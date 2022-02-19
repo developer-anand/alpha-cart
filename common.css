@@ -8,6 +8,7 @@
 :root {
   font-size: 62.5%;
   --black: #000000;
+  --login-hover: rgb(87, 85, 85);
   --links-text-color: #333;
   --nav-text-color: #fff;
   --nav-hower: #e7ecef;
@@ -16,4 +17,5 @@
   --icon-badge-color: rgb(68, 27, 3);
   --icon-count-color: #fff;
   --icon-count-bg: red;
+  --secondary-text: blue;
 }

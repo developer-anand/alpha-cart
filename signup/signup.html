@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/css/home.css" />
+    <link rel="stylesheet" href="/signup/signup.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="nav-left">
+          <a href="/index.html">
+            <img src="/assests//alpha.png" class="brand-logo" alt="logo" />
+          </a>
+        </div>
+
+        <div class="search">
+          <input type="text" class="search-box" placeholder="search here...." />
+          <button class="search-btn">search</button>
+        </div>
+        <div class="nav-links">
+          <a href="/login/login.html" class="login">
+            <button class="login-btn">Login</button>
+          </a>
+
+          <a href="#">
+            <i class="fa far fa-shopping-cart icon-badge">
+              <span class="icon-badge-count bg-primary">2</span>
+            </i>
+          </a>
+          <a href="#">
+            <i class="fa far fa-light fa-heart icon-badge">
+              <span class="icon-badge-count bg-primary">2</span>
+            </i>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <div class="login-container">
+        <h2 class="login-heading">Signup</h2>
+
+        <div class="auth-user-input">
+          <label for="user-input" class="input-label">Email</label>
+          <input
+            id="user-input"
+            type="email"
+            class="user-input"
+            placeholder="Enter Email"
+            name="user"
+          />
+
+          <label for="user-input" class="input-label">Password</label>
+          <input
+            type="password"
+            class="user-input"
+            placeholder="Enter Password"
+            name="password"
+          />
+          <label for="user-input" class="input-label">Confirm Password</label>
+          <input
+            type="password"
+            class="user-input"
+            placeholder="Confirm Password"
+            name="password"
+          />
+        </div>
+
+        <div class="auth-forget">
+          <div class="auth-remember-input">
+            <input type="checkbox" value="" />
+            <span class="auth-forget-text">I accept all</span>
+            <a href="#" class="auth-forget-text"
+              ><span class="secondary-txt">Terms & Conditions</span></a
+            >
+          </div>
+        </div>
+
+        <a href="#" class="btn-container">
+          <button class="auth-btn">Signup</button>
+        </a>
+
+        <a href="/login/login.html" class="btn-container">
+          <button class="auth-btn btn-secondary">
+            Already have an account >
+          </button>
+        </a>
+      </div>
+    </section>
+  </body>
+</html>
