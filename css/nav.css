@@ -1,0 +1,106 @@
+@import "/common.css";
+
+.navbar {
+  box-shadow: 1px 2px var(--black);
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  background: var(--nav-bg-color);
+  padding: 2rem;
+}
+
+.brand-logo {
+  height: 8rem;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.search {
+  width: auto;
+  margin-left: auto;
+}
+
+.search-box {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 40rem;
+  height: 4rem;
+  padding: 10px;
+  border: 1px solid var(--black);
+  text-transform: capitalize;
+  background: none;
+  outline: none;
+}
+
+.search-btn {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: auto;
+  height: 4rem;
+  padding: 1rem 2rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: var(--links-text-color);
+  color: var(--nav-text-color);
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+.nav-links {
+  margin-left: auto;
+}
+
+.nav-links a {
+  margin: 2rem;
+  font-size: 4rem;
+  text-decoration: none;
+  color: var(--links-text-color);
+}
+
+.icon-badge {
+  position: relative;
+  right: 0px;
+}
+
+.icon-badge-count {
+  color: var(--icon-count-color);
+  background: var(--icon-count-bg);
+  display: inline-flex;
+  align-items: center;
+  position: absolute;
+  font-size: 2rem;
+  top: -8px;
+  right: -6px;
+  text-align: center;
+  aspect-ratio: 1;
+}
+
+.bg-primary {
+  border-radius: 50%;
+  height: 2.5rem;
+  width: 2.5rem;
+  display: inline-flex;
+  justify-content: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .search-box {
+    display: none;
+  }
+  .search-btn {
+    display: none;
+  }
+  .nav-links a {
+    font-size: 2rem;
+  }
+  .icon-badge-count {
+    font-size: 1rem;
+    height: 10px;
+    width: 10px;
+  }
+}
