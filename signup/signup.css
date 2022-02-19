@@ -88,3 +88,11 @@ h2 {
   color: var(--nav-text-color);
   cursor: pointer;
 }
+
+.btn-secondary {
+  background: var(--nav-text-color);
+  color: blue;
+  border: none;
+  width: max-content;
+  text-align: center;
+}
