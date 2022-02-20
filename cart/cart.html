@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cart</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/css/home.css" />
+    <link rel="stylesheet" href="/cart/cart.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="nav-left">
+          <a href="/index.html">
+            <img src="/assests//alpha.png" class="brand-logo" alt="logo" />
+          </a>
+        </div>
+
+        <div class="search">
+          <input type="text" class="search-box" placeholder="search here...." />
+          <button class="search-btn">search</button>
+        </div>
+        <div class="nav-links">
+          <a href="/login/login.html" class="login">
+            <button class="login-btn">Login</button>
+          </a>
+
+          <a href="/cart/cart.html">
+            <i class="fa far fa-shopping-cart icon-badge">
+              <span class="icon-badge-count bg-primary">2</span>
+            </i>
+          </a>
+          <a href="/wishlist/wishlist.html">
+            <i class="fa far fa-light fa-heart icon-badge">
+              <span class="icon-badge-count bg-primary">2</span>
+            </i>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="cart-container">
+      <h2 class="product-category">Cart</h2>
+      <div class="all-carts">
+        <div class="cart">
+          <div class="cart-comp">
+            <img src="/assests/card9.png" alt="img" />
+            <div class="cart-des">
+            <h2 class="prd-title">Shoes</h2>
+            <p class="prd-dec">
+              This tee is perfect casual wear for body-conscious clothing.
+              Featuring a slim silhouette with fine stripes on the ribs and
+              collar. Crafted in exceptional quality 100% ring-spun pure cotton
+              fabric with Bio-wash treatment, ensuring you stay cool and ready
+              to make your move. Its contemporary fit is a perfect choice for
+              millennials; it presents your style's bold signature to compliment
+              your attitude.
+            </p>
+            <button class="btn btn-prm">Add To Cart</button>
+            <button class="btn btn-sec">Move To Wishlist</button>
+            <div class="cart-qut-container">
+              <label for="quantity">Qty:</label>
+              <select name="quantity" id="quantity">
+                <option value="1" selected="">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+              </select>
+              <button class="trash-btn">
+                <i class="fa fa-trash-o"></i>
+              </button>
+            </div>
+            </div>
+          </div>
+        <div class="checkout-container">
+            <div class="checkout">
+              <h3 class="checkout-title">Checkout</h3>
+              <hr />
+              <div class="checkout-des">
+                <p>Price (2 items)</p>
+                <p class="checkout-des-price">$999</p>
+              </div>
+              <div class="checkout-des">
+                <p>Discount</p>
+                <p class="checkout-des-price">-$99</p>
+              </div>
+              <div class="checkout-des">
+                <p>Delivery Charges</p>
+                <p class="checkout-des-price">$49</p>
+              </div>
+              <hr />
+              <div class="checkout-des">
+                <h3>TOTAL</h3>
+                <h3 class="checkout-des-price">$949</h3>
+              </div>
+              <hr />
+              <p>You will save $50 on this order</p>
+      
+              <button class="checkout-btn">PLACE ORDER</button>
+            </div>
+       </div>
+      </div>
+     </div>
+        
+        <div class="cart-comp sec">
+          <img src="/assests/card5.png" alt="img" />
+          <div class="cart-des">
+            <h2 class="prd-title">Novo Shirt</h2>
+            <p class="prd-dec">
+              This tee is perfect casual wear for body-conscious clothing.
+              Featuring a slim silhouette with fine stripes on the ribs and
+              collar. Crafted in exceptional quality 100% ring-spun pure cotton
+              fabric with Bio-wash treatment, ensuring you stay cool and ready
+              to make your move. Its contemporary fit is a perfect choice for
+              millennials; it presents your style's bold signature to compliment
+              your attitude.
+            </p>
+            <button class="btn btn-prm">Add To Cart</button>
+            <button class="btn btn-sec">Move To Wishlist</button>
+            <div class="cart-qut-container">
+              <label for="quantity">Qty:</label>
+              <select name="quantity" id="quantity">
+                <option value="1" selected="">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+              </select>
+              <button class="trash-btn">
+                <i class="fa fa-trash-o"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <footer class="footer-container">
+      <h2>Made with ❤️ by Anand Jha</h2>
+    </footer>
+  </body>
+</html>
