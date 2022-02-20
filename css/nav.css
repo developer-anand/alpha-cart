@@ -17,6 +17,7 @@
   height: 8rem;
   cursor: pointer;
   border-radius: 50%;
+  padding: 10px;
 }
 
 .search {
