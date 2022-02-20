@@ -19,3 +19,7 @@
   --icon-count-bg: red;
   --secondary-text: blue;
 }
+
+a {
+  text-decoration: none;
+}

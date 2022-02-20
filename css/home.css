@@ -34,12 +34,15 @@
   border: none;
   font-weight: 500;
   transition: 0.2s ease;
-  margin-top: 30rem;
+  margin: auto;
+}
+
+.shop-btn a {
+  color: var(--black);
 }
 
 .shop-btn:hover {
-  background-color: var(--black);
-  color: var(--nav-text-color);
+  background-color: var(--nav-secondary-color);
 }
 
 .featured-pages-heading {

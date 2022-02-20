@@ -1,0 +1,79 @@
+@import "/css/nav.css";
+
+.prd-list {
+  grid-area: main;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr;
+  min-width: 100%;
+  padding: 2rem 0;
+  height: 100%;
+}
+
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4rem;
+  margin-left: 2rem;
+  padding: 0 2rem;
+  width: fit-content;
+  border-right: 1px solid var(--nav-text-color);
+  overflow-y: hidden;
+  box-shadow: 4px 8px var(--nav-secondary-color);
+}
+
+.filter-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-bottom: 2rem;
+}
+
+.clr-btn {
+  background: none;
+  border: none;
+  color: var(--icon-count-bg);
+  cursor: pointer;
+  outline: none;
+  font-weight: 500;
+}
+
+.filter-list-items {
+  list-style: none;
+  padding: 1.5rem;
+  border-top: 1px solid var(--black);
+}
+
+.filter-list-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+
+.filter-list-items li {
+  padding-bottom: 8px;
+}
+
+.list-content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+input {
+  cursor: pointer;
+}
+
+.rating-slider {
+  cursor: pointer;
+  width: 16rem;
+  border-radius: 8px;
+  height: 10px;
+}
+
+.rating-slider-contents {
+  display: flex;
+  justify-content: space-between;
+}
