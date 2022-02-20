@@ -31,7 +31,7 @@
   padding-bottom: 2rem;
 }
 
-.clr-btn {
+.clear-btn {
   background: none;
   border: none;
   color: var(--icon-count-bg);
@@ -70,10 +70,51 @@ input {
   cursor: pointer;
   width: 16rem;
   border-radius: 8px;
-  height: 10px;
+  height: 1rem;
 }
 
 .rating-slider-contents {
   display: flex;
   justify-content: space-between;
+}
+
+.prd-dec-header {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1.5%;
+}
+
+.prd-dec {
+  font-size: 1.3rem;
+  font-weight: 400;
+  padding: 1.5%;
+  color: var(--grey);
+}
+
+.product-discountedPrice,
+.product-price {
+  font-size: 14px;
+  color: var(--black);
+  font-weight: 500;
+}
+
+.product-price {
+  line-height: 15px;
+  padding: 5px;
+  white-space: nowrap;
+}
+
+.product-strike {
+  text-decoration: line-through;
+  color: var(--grey);
+  font-weight: 400;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.product-discountPercentage {
+  color: var(--icon-count-bg);
+  font-weight: 400;
+  font-size: 12px;
+  margin-left: 5px;
 }
