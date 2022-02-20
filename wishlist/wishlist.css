@@ -1,0 +1,28 @@
+@import "/css/nav.css";
+
+.product-category {
+  text-align: center;
+  font-weight: 700;
+}
+
+.discount-tag {
+  cursor: pointer;
+  border-radius: 50%;
+  transition: 0.2s ease-in;
+}
+
+.discount-tag:hover {
+  background: var(--login-hover);
+  color: var(--nav-secondary-color);
+}
+
+.card-btn {
+  left: 50%;
+  transition: 0.3s ease-in;
+  font-size: 1.5rem;
+}
+
+.btn-secondary:hover {
+  color: #fff;
+  background: var(--login-hover);
+}
