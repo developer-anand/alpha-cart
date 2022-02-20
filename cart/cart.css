@@ -1,0 +1,165 @@
+@import "/css/nav.css";
+
+.cart {
+  display: flex;
+  margin-left: 5rem;
+  gap: 10rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-comp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--black);
+  width: fit-content;
+  box-shadow: 2px 4px var(--nav-secondary-color);
+  margin-bottom: 2rem;
+}
+
+.sec {
+  margin-left: 21rem;
+}
+
+.product-category {
+  text-align: center;
+  font-weight: 700;
+  margin: 2rem;
+}
+
+.cart-des {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  gap: 1rem;
+  padding: 10px;
+}
+
+.prd-title {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.prd-dec {
+  font-size: 1rem;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.btn-prm {
+  background: var(--black);
+  border: none;
+  color: var(--nav-text-color);
+}
+
+.btn-prm:hover {
+  background: var(--nav-secondary-color);
+  color: var(--black);
+}
+
+.btn-sec {
+  background: var(--nav-secondary-color);
+  border: none;
+  color: var(--black);
+}
+
+.btn-sec:hover {
+  background: var(--nav-text-color);
+  color: var(--black);
+}
+
+.cart-qut-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#quantity {
+  font-size: 1rem;
+  padding: 8px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  transition: 0.2s;
+}
+
+#quantity:hover {
+  background: var(--nav-secondary-color);
+}
+
+.trash-btn {
+  margin: 2rem;
+  font-size: 1.5rem;
+  padding: 8px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: var(--icon-count-bg);
+  transition: 0.2s;
+}
+
+.trash-btn:hover {
+  background: var(--nav-secondary-color);
+}
+
+.checkout-container {
+  width: fit-contents;
+  border: 1px solid var(--black);
+  width: fit-content;
+  margin: 4rem;
+}
+
+.checkout {
+  width: fit-content;
+  min-width: 50rem;
+  height: 39rem;
+  padding: 4rem;
+  background-color: var(--nav-secondary-color);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.checkout-title {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.checkout-des {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+}
+
+.checkout-des-price {
+  margin-left: auto;
+  font-size: 1.5rem;
+}
+
+.checkout-btn {
+  align-self: center;
+  font-size: 1.3rem;
+  text-align: center;
+  width: max-content;
+  padding: 1.5rem;
+  cursor: pointer;
+  background: var(--black);
+  color: var(--nav-text-color);
+  transition: 0.2s ease;
+  border: none;
+}
+
+.checkout-btn:hover {
+  background: var(--nav-text-color);
+  color: var(--black);
+}
+
+.container-box {
+  display: flex;
+  flex-direction: row;
+}
