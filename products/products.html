@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/css/home.css" />
+    <link rel="stylesheet" href="/products/products.css" />
+    <link rel="stylesheet" href="/css/home.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="nav-left">
+          <a href="/index.html">
+            <img src="/assests//alpha.png" class="brand-logo" alt="logo" />
+          </a>
+        </div>
+
+        <div class="search">
+          <input type="text" class="search-box" placeholder="search here...." />
+          <button class="search-btn">search</button>
+        </div>
+        <div class="nav-links">
+          <a href="/login/login.html" class="login">
+            <button class="login-btn">Login</button>
+          </a>
+
+          <a href="/cart/cart.html">
+            <i class="fa far fa-shopping-cart icon-badge">
+              <span class="icon-badge-count bg-primary">2</span>
+            </i>
+          </a>
+          <a href="/wishlist/wishlist.html">
+            <i class="fa far fa-light fa-heart icon-badge">
+              <span class="icon-badge-count bg-primary">2</span>
+            </i>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="prd-list">
+      <div class="filter-container">
+        <div class="filter-title">
+          <span>FILTERS</span>
+          <a href="./products.html" class="clear-btn">CLEAR ALL</a>
+        </div>
+
+        <ul class="filter-list-items">
+          <div class="filter-list-title">Sort</div>
+          <li>
+            <label class="list-content">
+              <input type="radio" name="sortByPrice" id="price-high-low" />
+              Price : High to Low
+            </label>
+          </li>
+          <li>
+            <label class="list-content">
+              <input type="radio" name="sortByPrice" id="price-low-high" />
+              Price : Low to High
+            </label>
+          </li>
+        </ul>
+
+        <ul class="filter-list-items">
+          <div class="filter-list-title">Rating</div>
+          <input class="rating-slider" type="range" min="1" max="5" value="4" />
+          <label class="rating-slider-contents">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+          </label>
+        </ul>
+        <ul class="filter-list-items">
+          <div class="filter-list-title">Categories</div>
+          <li>
+            <label class="list-content">
+              <input type="checkbox" name="" id="shirt" />
+              Shirts
+            </label>
+          </li>
+          <li>
+            <label class="list-content">
+              <input type="checkbox" name="" id="tshirt" />
+              T Shirts
+            </label>
+          </li>
+          <li>
+            <label class="list-content">
+              <input type="checkbox" name="" id="jeans" />
+              Jeans
+            </label>
+          </li>
+          <li>
+            <label class="list-content">
+              <input type="checkbox" name="" id="shorts" />
+              Shorts
+            </label>
+          </li>
+        </ul>
+        <ul class="filter-list-items">
+          <div class="filter-list-title">Filter by Brands</div>
+          <li>
+            <label class="list-content">
+              <input type="checkbox" name="" id="zara" />
+              Zara
+            </label>
+          </li>
+          <li>
+            <label class="list-content">
+              <input type="checkbox" name="" id="levis" />
+              Levis
+            </label>
+          </li>
+          <li>
+            <label class="list-content">
+              <input type="checkbox" name="" id="puma" />
+              Puma
+            </label>
+          </li>
+          <li>
+            <label class="list-content">
+              <input type="checkbox" name="" id="pepe" />
+              Pepe Jeans
+            </label>
+          </li>
+        </ul>
+      </div>
+
+      <div class="products-container">
+        <div class="product-card">
+          <div class="product-image">
+            <span class="discount-tag">50% off</span>
+            <img src="/assests/card5.png" class="product-thumb" alt="img" />
+            <button class="card-btn btn-primary">buy now</button>
+            <button class="card-btn btn-secondary">add to cart</button>
+          </div>
+          <h3 class="prd-dec-header">HIGHLANDER</h3>
+          <h4 class="prd-dec">Highlander Fit Casual Shirt</h4>
+          <div class="product-price">
+            <span
+              ><span class="product-discountedPrice">Rs.399</span
+              ><span class="product-strike">Rs.999</span></span
+            ><span class="product-discountPercentage">(60% OFF)</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <span class="discount-tag">50% off</span>
+            <img src="/assests/card7.png" class="product-thumb" alt="img" />
+            <button class="card-btn btn-primary">buy now</button>
+            <button class="card-btn btn-secondary">add to cart</button>
+          </div>
+          <h3 class="prd-dec-header">ROADSTER</h3>
+          <h4 class="prd-dec">ROADSTER Fit Casual Shirt</h4>
+          <div class="product-price">
+            <span
+              ><span class="product-discountedPrice">Rs.399</span
+              ><span class="product-strike">Rs.999</span></span
+            ><span class="product-discountPercentage">(60% OFF)</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <span class="discount-tag">50% off</span>
+            <img src="/assests/card8.png" class="product-img" alt="img" />
+            <button class="card-btn btn-primary">buy now</button>
+            <button class="card-btn btn-secondary">add to cart</button>
+          </div>
+          <h3 class="prd-dec-header">HERE&NOW</h3>
+          <h4 class="prd-dec">HERE&NOW Fit Casual Shirt</h4>
+          <div class="product-price">
+            <span
+              ><span class="product-discountedPrice">Rs.399</span
+              ><span class="product-strike">Rs.999</span></span
+            ><span class="product-discountPercentage">(60% OFF)</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <span class="discount-tag">50% off</span>
+            <img src="/assests/card3.png" class="product-thumb" alt="img" />
+            <button class="card-btn btn-primary">buy now</button>
+            <button class="card-btn btn-secondary">add to cart</button>
+          </div>
+          <h3 class="prd-dec-header">Moda Rapido</h3>
+          <h4 class="prd-dec">Moda Rapido Fit Casual Shirt</h4>
+          <div class="product-price">
+            <span
+              ><span class="product-discountedPrice">Rs.399</span
+              ><span class="product-strike">Rs.999</span></span
+            ><span class="product-discountPercentage">(60% OFF)</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <span class="discount-tag">50% off</span>
+            <img src="/assests/card6.png" class="product-thumb" alt="img" />
+            <button class="card-btn btn-primary">buy now</button>
+            <button class="card-btn btn-secondary">add to cart</button>
+          </div>
+          <h3 class="prd-dec-header">Roadster</h3>
+          <h4 class="prd-dec">Roadster Fit Casual Shirt</h4>
+          <div class="product-price">
+            <span
+              ><span class="product-discountedPrice">Rs.399</span
+              ><span class="product-strike">Rs.999</span></span
+            ><span class="product-discountPercentage">(60% OFF)</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <span class="discount-tag">50% off</span>
+            <img src="/assests/card1.png" class="product-thumb" alt="img" />
+            <button class="card-btn btn-primary">buy now</button>
+            <button class="card-btn btn-secondary">add to cart</button>
+          </div>
+          <h3 class="prd-dec-header">HERE&NOW</h3>
+          <h4 class="prd-dec">HERE&NOW Fit Casual Shirt</h4>
+          <div class="product-price">
+            <span
+              ><span class="product-discountedPrice">Rs.1999</span
+              ><span class="product-strike">Rs.999</span></span
+            ><span class="product-discountPercentage">(60% OFF)</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer-container">
+      <h2>Made with ❤️ by Anand Jha</h2>
+    </footer>
+  </body>
+</html>

@@ -34,12 +34,15 @@
   border: none;
   font-weight: 500;
   transition: 0.2s ease;
-  margin-top: 30rem;
+  margin: auto;
+}
+
+.shop-btn a {
+  color: var(--black);
 }
 
 .shop-btn:hover {
-  background-color: var(--black);
-  color: var(--nav-text-color);
+  background-color: var(--nav-secondary-color);
 }
 
 .featured-pages-heading {
@@ -179,6 +182,47 @@
 .btn-secondary {
   left: 20rem;
   background: var(--nav-secondary-color);
+}
+
+.prd-dec-header {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1.5%;
+}
+
+.prd-dec {
+  font-size: 1.3rem;
+  font-weight: 400;
+  padding: 1.5%;
+  color: var(--grey);
+}
+
+.product-discountedPrice,
+.product-price {
+  font-size: 14px;
+  color: var(--black);
+  font-weight: 500;
+}
+
+.product-price {
+  line-height: 15px;
+  padding: 5px;
+  white-space: nowrap;
+}
+
+.product-strike {
+  text-decoration: line-through;
+  color: var(--grey);
+  font-weight: 400;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.product-discountPercentage {
+  color: var(--icon-count-bg);
+  font-weight: 400;
+  font-size: 12px;
+  margin-left: 5px;
 }
 
 .footer-container {

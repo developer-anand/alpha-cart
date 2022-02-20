@@ -18,4 +18,9 @@
   --icon-count-color: #fff;
   --icon-count-bg: red;
   --secondary-text: blue;
+  --grey: grey;
+}
+
+a {
+  text-decoration: none;
 }
