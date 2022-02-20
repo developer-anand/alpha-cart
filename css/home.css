@@ -1,1 +1,190 @@
 @import "/css/nav.css";
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: slider 9s infinite linear;
+}
+
+@keyframes slider {
+  0% {
+    background-image: url("/images/amanda-vick-zw_oaDbfzyE-unsplash.jpg");
+  }
+  35% {
+    background-image: url("/images/ashim-d-silva-ZmgJiztRHXE-unsplash.jpg");
+  }
+  75% {
+    background-image: url("/images/junko-nakase-Q-72wa9-7Dg-unsplash.jpg");
+  }
+  100% {
+    background-image: url("/images/sarah-dorweiler-fr0J5-GIVyg-unsplash.jpg");
+  }
+}
+
+.shop-btn {
+  position: absolute;
+  padding: 2rem 4rem;
+  font-size: 2rem;
+  cursor: pointer;
+  box-shadow: 2px 2 px var(--nav-secondary-color);
+  border: none;
+  font-weight: 500;
+  transition: 0.2s ease;
+  margin-top: 30rem;
+}
+
+.shop-btn:hover {
+  background-color: var(--black);
+  color: var(--nav-text-color);
+}
+
+.featured-pages-heading {
+  text-align: center;
+  font-size: 3rem;
+  margin: 2rem;
+}
+
+.card-container {
+  width: 100%;
+}
+
+.cards {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  box-sizing: border-box;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  margin: 8rem;
+}
+
+.card-badge-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  height: 30rem;
+  width: 30rem;
+  transition: 1s;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.img:hover {
+  transform: scale(1.5);
+}
+
+.img-badge {
+  cursor: pointer;
+  padding: 1rem;
+  background: var(--nav-text-color);
+  position: absolute;
+  color: var(--links-text-color);
+  font-size: 3rem;
+}
+
+.img-badge:hover {
+  background: var(--black);
+  color: var(--nav-text-color);
+}
+
+/*product list */
+
+.product {
+  position: relative;
+  overflow: hidden;
+  padding: 2rem 0;
+}
+
+.product-category {
+  font-size: 3rem;
+  text-transform: capitalize;
+  padding: 0 10vw;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+
+.products-container {
+  display: flex;
+  overflow-x: auto;
+  flex-wrap: wrap;
+  scroll-behavior: smooth;
+  padding: 0 10vw;
+}
+
+.product-container::-webkit-scrollbar {
+  display: none;
+}
+
+.product-card {
+  flex: 0 0 auto;
+  width: 25rem;
+  height: 45rem;
+  margin-right: 4rem;
+}
+
+.product-image {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 35rem;
+}
+
+.product-img {
+  width: 100%;
+  height: 35rem;
+  object-fit: cover;
+}
+
+.discount-tag {
+  position: absolute;
+  right: 0;
+  font-size: 2rem;
+  background-color: var(--icon-count-bg);
+  color: var(--nav-text-color);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.card-btn {
+  position: absolute;
+  bottom: 10px;
+  transform: translateX(-50%);
+  padding: 10px;
+  width: fit-content;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  background: var(--icon-count-bg);
+  border-radius: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.btn-primary {
+  right: 50%;
+  background: var(--links-text-color);
+  color: var(--nav-text-color);
+}
+
+.btn-secondary {
+  left: 20rem;
+  background: var(--nav-secondary-color);
+}
+
+.footer-container {
+  width: 100%;
+  height: 10rem;
+  background: var(--nav-secondary-color);
+  text-align: center;
+  padding: 5rem;
+}
