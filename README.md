@@ -1,6 +1,6 @@
 <div align="center">
 
-<img alt="alpha cart logo" src="assets/alpha.png" width="150px" height="150px" />
+<img alt="alpha cart logo" src="/assests/alpha.png/" width="150px" height="150px" />
 
 # Alpha Cart
 
